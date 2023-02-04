@@ -1,0 +1,43 @@
+.leftSidebar {
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 50px;
+  height: 448px;
+  position: static;
+}
+
+.leftSidebar > .options {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 125px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.leftSidebar > .options:hover {
+  /* background-color: rgb(158, 155, 155, 1%); */
+  border-bottom: 2px solid lightgrey;
+  cursor: pointer;
+}
+
+.options > .icons {
+  color: blue;
+  font-size: x-large;
+}
+
+.leftSidebar > .options > p {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .leftSidebar {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .leftSidebar {
+    display: none;
+  }
+}

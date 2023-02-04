@@ -1,0 +1,5 @@
+.App {
+  background-image: linear-gradient(to bottom right, red, orange);
+  min-height: 100vh;
+  /* display: flex;  */
+}

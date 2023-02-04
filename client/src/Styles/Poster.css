@@ -1,0 +1,66 @@
+.poster {
+  width: 560px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.poster__top {
+  display: flex;
+  border-bottom: 1px hsl(0, 0%, 86%) solid;
+  padding: 15px;
+}
+
+.poster__top > .avatar {
+  margin-right: 5px;
+}
+
+.poster__top > input {
+  outline: 0px;
+  border: 0px;
+  background-color: whitesmoke;
+  padding: 2px 10px;
+}
+
+.poster__bottom {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.poster__bottom .options {
+  padding: 5px 25px;
+  display: flex;
+  align-items: center;
+}
+
+.poster__bottom .options:hover {
+  /* background-color: rgb(158, 155, 155); */
+  cursor: pointer;
+}
+
+.poster__bottom .options > .icon {
+  margin-right: 4px;
+}
+
+.poster__bottom .options > .icon1 {
+  color: blue;
+}
+
+.poster__bottom .options > .icon2 {
+  color: green;
+}
+
+.poster__bottom .options > .icon3 {
+  color: orange;
+}
+
+.poster__top > input {
+  flex: 1;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .poster {
+    width: 500px;
+  }
+}

@@ -1,0 +1,6 @@
+.app__body {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  margin-top: 30px;
+}

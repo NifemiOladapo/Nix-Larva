@@ -1,0 +1,46 @@
+.post {
+  margin-top: 50px;
+  display: flex;
+  width: 560px;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.post > .post__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.post > .post__bottom > .options {
+  display: flex;
+  align-items: center;
+}
+
+.post > .post__bottom > input {
+  flex: 1;
+  height: 35px;
+}
+
+.post > .post__header {
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px hsl(0, 0%, 86%) solid;
+}
+
+.post > .post__header > .posting__info {
+  margin-left: 5px;
+}
+
+.post > .avatar {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .post {
+    width: 500px;
+  }
+}
